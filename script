@@ -2,13 +2,13 @@ database demo
 two tables
 login and blog
 
-create table login1 (
+create table login (
 	id serial,
     loginid varchar(100),
     password varchar(100)
     );
 
-insert into login1 values(1, 'alishadhawan@gmail.com', '12345678');
+insert into login values(1, 'alishadhawan@gmail.com', '12345678');
 
 
 create table blog (
